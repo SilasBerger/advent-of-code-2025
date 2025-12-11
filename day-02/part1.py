@@ -3,8 +3,6 @@ import re
 
 def is_fake(candidate):
     chars = str(candidate)
-    if len(chars) % 2 != 0:
-        return False
     for i in range(len(chars)//2):
         if re.match(f'^({chars[:i+1]})' + '{2}$', chars) is not None:
             return True
