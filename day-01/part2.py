@@ -22,7 +22,6 @@ position = 50
 zero_count = 0
 for line in lines:
     new_position, new_zeros = calc_position(position, line[0], line[1])
-    print(f'{position}, {line} -> {new_position} ({new_zeros})')
     position = new_position
     zero_count += new_zeros
 
