@@ -26,10 +26,3 @@ for line in lines:
     zero_count += new_zeros
 
 print(f'Zero count: {zero_count}')
-    
-# 26, ['L', 26] -> 0 (0)
-# 0, ['L', 98] -> 2 (1)
-# 2, ['L', 17] -> 85 (1)
-
-# 13, ['R', 487] -> 0 (5)
-# 0, ['L', 39] -> 61 (1)
