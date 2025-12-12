@@ -1,6 +1,6 @@
 REQUIRED_BATTERIES = 12  # Use 2 for solution to part 1
 
-with open('input.txt') as f:
+with open('../inputs/day03.txt') as f:
     banks = [bank.strip() for bank in f.readlines()]
 
 batteries_per_bank = len(banks[0])

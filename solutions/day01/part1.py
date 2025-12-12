@@ -7,7 +7,7 @@ def calc_position(current_position, direction, value):
         raise Exception(f'Unexpected direction: {direction}')
     
 
-with open("input.txt") as f:
+with open("../inputs/day01.txt") as f:
     lines = [[line[0], int(line[1:-1])] for line in f.readlines()]
 
 position = 50

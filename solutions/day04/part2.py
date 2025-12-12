@@ -2,7 +2,7 @@ import numpy as np
 
 MAX_NEIGHBORS = 3
 
-with open('input.txt') as f:
+with open('../inputs/day04.txt') as f:
     grid = np.matrix([[1 if c == '@' else 0 for c in line.strip()] for line in f.readlines()])
 
 

@@ -8,7 +8,7 @@ def is_fake(candidate):
             return True
 
 
-with open('input.txt', 'r') as f:
+with open('../inputs/day02.txt', 'r') as f:
     raw_ranges = f.readline().split(',')
     ranges = []
     for rr in raw_ranges:

@@ -1,4 +1,4 @@
-with open('input.txt') as f:
+with open('../inputs/day03.txt') as f:
     banks = [bank.strip() for bank in f.readlines()]
 
 sum = 0
