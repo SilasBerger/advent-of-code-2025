@@ -28,7 +28,7 @@ My AoC 2025 solutions.
 | 23  |          |
 | 24  |          |
 
-## Usage
+## Usage
 ```bash
 docker compose up -d
 ```
